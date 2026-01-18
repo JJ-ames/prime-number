@@ -6,5 +6,5 @@ def is_prime(number):
             return False
     return True
 
-primes = [num for num in range(1, 201) if is_prime(num)]
+primes = [num for num in range(1, 101) if is_prime(num)]
 print(primes)
