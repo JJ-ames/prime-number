@@ -18,6 +18,6 @@ def prime_factorization(n):
 
 
 # Example usage
-number = 234
+number = int(input("Enter a number to factor into primes: "))
 result = prime_factorization(number)
 print(f"Prime factors of {number}: {result}")
